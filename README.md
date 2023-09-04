@@ -2,6 +2,8 @@
 
 https://jenil-dobariya.github.io/webdev-bootcamp-screening/
 
+Use any string as username and password.
+
 # To run the files:
 
 This is a react-app.
