@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webdev-bootcamp-screening/static/css/main.c212c52e.css",
+    "main.js": "/webdev-bootcamp-screening/static/js/main.c4bf62fc.js",
+    "static/js/787.82772de7.chunk.js": "/webdev-bootcamp-screening/static/js/787.82772de7.chunk.js",
+    "index.html": "/webdev-bootcamp-screening/index.html",
+    "main.c212c52e.css.map": "/webdev-bootcamp-screening/static/css/main.c212c52e.css.map",
+    "main.c4bf62fc.js.map": "/webdev-bootcamp-screening/static/js/main.c4bf62fc.js.map",
+    "787.82772de7.chunk.js.map": "/webdev-bootcamp-screening/static/js/787.82772de7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c212c52e.css",
+    "static/js/main.c4bf62fc.js"
+  ]
+}
