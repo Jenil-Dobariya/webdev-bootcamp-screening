@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+#mainBody{
+    height: 90vh;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#loginPage{
+    background-color: #ededed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#loginBox{
+    background-color: white;
+    height: 40%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#loginBox #loginDetail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+#loginBox #keyImg{
+    width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#loginBox #mail{
+    width: 100%;
+    
+}
+
+#loginBox #btn{
+    width: 100%;
+}
+#loginBox #mail input{
+    width: 100%;
+}
+
+#loginBox #pass input{
+    width: 100%;
+}
+#loginBox #pass{
+    width: 100%;
+}
+
+#loginBox button{
+    width: 100%;
+    background-color: rgb(153, 0, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginBox input{
+    padding: 10px;
+    border: solid 1px #d8d8d8;
+    border-radius: 2px;
 }

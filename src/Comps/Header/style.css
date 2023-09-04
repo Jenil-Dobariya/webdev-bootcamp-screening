@@ -1,0 +1,82 @@
+header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+header #headerLogo{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cdcdcd;
+}
+header #headerLogo img{
+    width: 80%;
+    height: 80%;
+}
+header #headerBar{
+    width: 83%;
+    height: 100%;
+    display: flex;
+}
+header #headerBar #headerSearch{
+    margin-left: 5%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header #headerBar #headerSearch input{
+    width: 100%;
+    height: 30%;
+    padding: 5px 10px;
+    background-color: #ededed;
+    border: solid black 0px;
+    border-radius: 20px;
+}
+header #headerBar #iAMwhite{
+    width: 35%;
+    height: 100%;
+}
+header #headerBar #headerNotify{
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header #headerBar #headerNotify #headerNotifyIcon{
+    border-right: solid 1px #ededed;
+    padding: 5px 15px;
+}
+header #headerBar #headerLoginInfo{
+    width: 25%;
+    display: flex;
+}
+header #headerBar #headerLoginInfo #headerLoginName{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header #headerBar #headerLoginInfo #headerLoginImg{
+    width: 25%;
+}
+header #headerBar #headerLoginInfo #headerLogOut{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header #headerBar #headerLoginInfo #headerLogOut button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(153, 0, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header #headerBar #headerLoginInfo #headerLoginImg img{
+    height: 100%;
+}

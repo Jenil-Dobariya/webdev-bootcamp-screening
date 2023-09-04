@@ -1,0 +1,63 @@
+#menu{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#menu .menus{
+    display: flex;
+    width: 50%;
+}
+#menu .menus .icon{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .menus p{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    color: #2e2e2e;
+}
+
+#menu #menuSupport{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#menu p{
+    color: #aaaaaa;
+}
+
+#menu #menuSupport #supportMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu #menuSupport .supportMenus{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu #menuSupport .supportMenus .icon{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu #menuSupport .supportMenus p{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    color: #2e2e2e;
+}
